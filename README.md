@@ -1,8 +1,7 @@
 # app-analytics-delivery-config-kickstart
 Template Terraform for managing the partner side infrastructure of App Analytics Bring Your Own Bucket feature.
 
-This repository is designed to be shared with ISV partners who want to use Bring Your Own Bucket, ideally by
-way of a public Github repository.
+This repository is designed to be shared with ISV partners who wish to participate in the 236 pilot: Bring Your Own Bucket.
 
 # Usage
 This Terraform script was tested with Terraform v1.0.
