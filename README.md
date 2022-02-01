@@ -55,7 +55,7 @@ To run the script, follow standard Terraform deployment steps.
 
 ## Get Your Information
 After the plan is applied, Terraform outputs the values that you must supply when creating an AppAnalyticsDeliveryConfig object in Salesforce.
-Specifically for each AppAnalyticsDeliveryConfig object, you must set the `BucketName` field as the ARN of your delegated IAM role.
+Specifically for each AppAnalyticsDeliveryConfig object, you must set the `BucketName` field as the name of your bucket and the `AwsIamRoleArn` field as the ARN of your delegated IAM role.
 
 You can also retrieve these values at any time by running:
 
