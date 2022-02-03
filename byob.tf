@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 locals {
-  bucket_names = toset(concat(var.bucket_names, formatlist("%s-%s", var.bucket_prefixes, var.lmo_org_id)))
+  bucket_names = toset(concat(var.bucket_names, formatlist("%s-%s", var.bucket_prefixes, lower(var.lmo_org_id))))
   bucket_arns  = [ for k, v in aws_s3_bucket.byob_storage : v.arn ]
 }
 
